@@ -1,0 +1,320 @@
+.container-fluid {
+     padding-right: 0 !important;
+     padding-left: 0 !important;
+}
+
+body ul {
+	list-style-type: none;
+	padding-inline-start: 0;
+	margin-bottom: 0;
+}
+
+header {
+	background: rgb(27,25,26);
+	height: 250px;
+	text-transform: uppercase;
+	padding-top: 40px;
+}
+
+header a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.view img{
+	width: 100%;
+	max-height: 562px;
+}
+
+.logo {
+	width: 319px;
+	height: 319px;
+	border-radius: 50%;
+	background: white;
+	position: relative;
+	transition: all linear 2s;
+}
+.logo:hover {
+	transform: rotateY(360deg);
+}
+
+.logo a {
+	width: 319px;
+	height: 319px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	font-size: 40px;
+	color: black;
+}
+
+.logo a p {
+	margin-top: 140px;
+}
+.topmenu {
+	font-size: 0;
+	position: absolute;
+	bottom: 50%;
+	margin-bottom: -30px;
+	right: 15px;	
+}
+.topmenu li {
+	display: inline-block;
+	border-right: 2px solid white;
+}
+.topmenu li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 28px;
+	font-size: 16px;
+	transition: 0.5s all ease;
+}
+.topmenu li a:hover {
+	background: white;
+	color: black;
+}
+.topmenu li:last-child {
+	border-right: none;
+}
+.navbar {
+	height: 100px;
+	background: rgb(50,114,139);
+	margin-bottom: 0;
+	font-size: 0;
+}
+
+.navbar ul {
+	margin-top: 28px;
+}
+
+.navbar ul li {
+	display: inline-block;
+	border-right: 2px solid white;
+}
+.navbar ul li:last-child {
+	border-right: none;
+}
+.navbar ul li a {
+	color: white;
+	text-decoration: none;
+	padding: 36px 65px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.navbar ul li a:hover {
+	background: rgb(42,96,117);
+	border-radius: 20px;
+}
+
+.notes {
+	padding: 110px 0;
+}
+
+.img_inform img{
+	height: 168px;
+	width: 168px;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+	transition: 2s all ease;
+}
+.img_inform img:hover {
+	transform: scale(1.25);
+}
+.description h3 {
+	text-align: center;
+	padding-top: 20px;
+}
+
+.box_advantages {
+	border-right: 2px solid white;
+	border-top: 20px solid rgb(50,114,139);
+	background: rgb(234,197,90);
+	vertical-align: top;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+.box_advantages_description {
+	padding: 0 !important;
+}
+
+.box_advantages_description p {
+	font-size: 15px;
+}
+.box_advantages_description h3 {
+	font-size: 19px;
+}
+
+i {
+	padding-top: 50px;
+	font-size: 30px;
+	color: white;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+
+footer {
+	height: 100px;
+	background: rgb(27,25,26);
+	padding: 35px 0;
+}
+
+footer span {
+	color: white;
+	margin-left: 20px;
+}
+
+.link {
+	padding-right: 20px;
+	border-right: 2px solid white;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: white;
+}
+footer ul {
+	font-size: 0;
+}
+
+footer ul li {
+	display: inline-block;
+	border-right: 2px solid white;
+}
+
+footer ul li:last-child {
+	border-right: none;
+}
+
+footer ul li a {
+	padding: 10px 15px;
+	font-size: 16px;
+}
+
+
+
+
+
+@media(min-width: 992px) and (max-width: 1200px) {
+.topmenu li a {
+    padding: 10px 19px;
+}
+
+.logo {
+	width: 285px;
+	height: 285px;
+}
+.logo a {
+	width: 285px;
+	height: 285px;
+	font-size: 38px;
+}
+header {
+	padding-top: 55px;
+}
+.logo a p {
+	margin-top: 125px;
+}
+.navbar ul li a {
+    padding: 38px 53px;
+    font-size: 18px;
+}
+.navbar ul {
+    margin-top: 29px;
+}
+footer {
+    padding: 35px 0;
+}
+
+.link {
+    padding-right: 12px;
+}
+footer span {
+    margin-left: 5px;
+}
+footer ul li a {
+    padding: 10px 10px;
+    font-size: 15px;
+}
+
+i {
+	padding-left: 0;
+	padding-top: 30px;
+}
+.box_advantages_description p {
+    font-size: 12px;
+}
+.box_advantages_description h3 {
+    font-size: 17px;
+}
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+.logo {
+	width: 250px;
+	height: 250px;
+}
+.logo a {
+	width: 250px;
+	height: 250px;
+	font-size: 38px;
+}
+.logo a p {
+	margin-top: 100px;
+}
+header {
+	padding-top: 80px;
+}
+.topmenu li a {
+    padding: 10px 9px;
+    font-size: 14px;
+}
+.navbar ul li a {
+    padding: 36px 24px;
+}
+i {
+    padding-top: 10px;
+    font-size: 50px;
+    padding-left: 85px;
+}
+.box_advantages:last-child i, .box_advantages:nth-child(4) i {
+	padding-left: 145px;
+}
+.box_advantages_description h3 {
+	text-align: center;
+	padding-top: 10px;
+}
+.box_advantages_description p {
+	padding: 0 10px;
+}
+footer {
+    padding: 25px 0;
+}
+.link {
+    padding-right: 5px;
+    font-size: 14px;
+    border-right: none;
+}
+footer span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+footer ul li a {
+	font-size: 14px;
+    padding: 10px 6px;
+}
+
+}
